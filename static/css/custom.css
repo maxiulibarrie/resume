@@ -1,0 +1,18 @@
+.container-utn {
+    display: grid;
+    align-items: right; 
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+}
+
+.alert-purple{color:#5b0085;background-color:#ddccff;border-color:#f2b8ff}
+
+.alert-purple hr{border-top-color:#ef9fff}
+
+.alert-purple .alert-link{color:#52004b}
+
+.badge-purple{color:#fff;background-color:#9f28a7}
+
+a.badge-purple:focus,a.badge-purple:hover{color:#fff;background-color:#691e7e}
+
+a.badge-purple.focus,a.badge-purple:focus{outline:0;box-shadow:0 0 0 .2rem rgba(120, 40, 167, 0.5)}
