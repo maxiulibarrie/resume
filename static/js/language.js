@@ -7,7 +7,7 @@ let language = Languages.English;
 
 let elements = {
     presentation: function() {return document.getElementsByClassName('presentation')},
-    btnDownload: function() {return document.getElementById('btnDownload')},
+    btnDownloadMyResume: function() {return document.getElementById('btnDownloadMyResume')},
     btnChangeLanguage: function() {return document.getElementById('btnChangeLanguage')},
     contactTitle: function() {return document.getElementById('contactTitle')},
     contact: function() {return document.getElementById('contact')},
@@ -36,7 +36,7 @@ let texts = {
             y siempre estoy dispuesto a ayudar y colaborar en un equipo de trabajo."
         }
     },
-    btnDownload: function() {
+    btnDownloadMyResume: function() {
         if (language === Languages.English) {
             return '<a href="static/download/Maximiliano_Ulibarrie_CV_English.pdf">\
                         <button class="btn btn-info ml-auto mr-md-5">\
@@ -195,7 +195,7 @@ let texts = {
 
 function setTexts() {
     for(element of elements.presentation()) element.innerText = texts.presentation();
-    elements.btnDownload().innerHTML = texts.btnDownload();
+    elements.btnDownloadMyResume().innerHTML = texts.btnDownloadMyResume();
     elements.btnChangeLanguage().innerHTML = texts.btnChangeLanguage();
     elements.contactTitle().innerHTML = texts.contactTitle();
     elements.contact().innerHTML = texts.contact();
