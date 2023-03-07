@@ -13,11 +13,17 @@
 
   <body onload="setTexts()" style="background-color: #330000;">
 
-    <nav class="navbar sticky-top" style="max-height: 5rem;">
-        <button id="btnChangeLanguage" class="btn btn-info ml-auto mr-md-5" onclick="changeLanguage()">
-        
-        </button>
-    </nav>
+    <div class="navbar sticky-top row" style="max-height: 5rem;">
+        <nav class="column">
+            <div id="btnDownload"></div>
+        </nav>
+
+        <nav class="column">
+            <button id="btnChangeLanguage" class="btn btn-info ml-auto mr-md-5" onclick="changeLanguage()">
+            
+            </button>
+        </nav>
+    </div>
 
     <div class="container">
         <div class="row mb-md-1" style="color: white;">
