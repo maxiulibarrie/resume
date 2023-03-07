@@ -7,6 +7,7 @@ let language = Languages.English;
 
 let elements = {
     presentation: function() {return document.getElementsByClassName('presentation')},
+    btnDownload: function() {return document.getElementById('btnDownload')},
     btnChangeLanguage: function() {return document.getElementById('btnChangeLanguage')},
     contactTitle: function() {return document.getElementById('contactTitle')},
     contact: function() {return document.getElementById('contact')},
@@ -33,6 +34,22 @@ let texts = {
             Estoy centrado en hacer el delivery con las mejores prácticas y el código más limpio dentro de mis capacidades, las cuales \
             estoy constantemente mejorando. También me gusta aprender sobre nuevas prácticas y tecnologías. Hablo inglés de manera fluida \
             y siempre estoy dispuesto a ayudar y colaborar en un equipo de trabajo."
+        }
+    },
+    btnDownload: function() {
+        if (language === Languages.English) {
+            return '<a href="static/download/Maximiliano_Ulibarrie_CV_English.pdf">\
+                        <button class="btn btn-info ml-auto mr-md-5">\
+                            <img src="static/assets/download.png" style="height: 3rem;"></img>\
+                        </button>\
+                    </a>'
+        }
+        else if (language === Languages.Spanish) {
+            return '<a href="static/download/Maximiliano_Ulibarrie_CV_Espaniol.pdf">\
+                        <button class="btn btn-info ml-auto mr-md-5">\
+                            <img src="static/assets/descargar.png" style="height: 3rem;"></img>\
+                        </button>\
+                    </a>'
         }
     },
     btnChangeLanguage: function() {
@@ -178,6 +195,7 @@ let texts = {
 
 function setTexts() {
     for(element of elements.presentation()) element.innerText = texts.presentation();
+    elements.btnDownload().innerHTML = texts.btnDownload();
     elements.btnChangeLanguage().innerHTML = texts.btnChangeLanguage();
     elements.contactTitle().innerHTML = texts.contactTitle();
     elements.contact().innerHTML = texts.contact();
@@ -199,6 +217,5 @@ function changeLanguage() {
     else if (language === Languages.Spanish) {language = Languages.English}
 
     setTexts();
-    console.log(language);
 
 }
