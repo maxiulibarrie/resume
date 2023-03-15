@@ -17,6 +17,8 @@ let elements = {
     formalExperiencesTitle: function() {return document.getElementById('formalExperiencesTitle')},
     personalProjectsTitle: function() {return document.getElementById('personalProjectsTitle')},
     personalProjects: function() {return document.getElementById('personalProjects')},
+    coursesCertificationsTitle: function() {return document.getElementById('coursesCertificationsTitle')},
+    coursesCertifications: function() {return document.getElementById('coursesCertifications')},
     fewWords: function() {return document.getElementById('fewWords')},
     mainlyMasterTitle: function() {return document.getElementById('mainlyMasterTitle')},
     alsoWorkWith: function() {return document.getElementById('alsoWorkWith')},
@@ -140,8 +142,11 @@ let texts = {
     },
     personalProjectsTitle: function() {
         if (language === Languages.English) {
-            return "Along with previously mentioned, I also worked parallelly at home for hobbie and self learning on the following personal projects:"}
-        else if (language === Languages.Spanish) {return "Junto con lo mencionado previamente, también trabajé en casa por hobbie y aprendizaje autodidacta con los siguientes proyectos personales:"}
+            return "Along with previously mentioned, I also worked parallelly at home for hobbie and self learning on the following personal projects:"
+        }
+        else if (language === Languages.Spanish) {
+            return "Junto con lo mencionado previamente, también trabajé en casa por hobbie y aprendizaje autodidacta con los siguientes proyectos personales:"
+        }
     },
     personalProjects: function() {
         if (language === Languages.English) {
@@ -175,6 +180,31 @@ let texts = {
                     </li>"
         }
     },    
+    coursesCertificationsTitle: function() {
+        if (language === Languages.English) {
+            return "Courses and Certifications:"
+        }
+        else if (language === Languages.Spanish) {
+            return "Cursos y Certificaciones:"
+        }
+    },
+    coursesCertifications: function() {
+        if (language === Languages.English) {
+            return "<li>\
+                        <strong>Introduction to Machine Learning Model Deployment Course:</strong><br>\
+                        Fundamentals of Machine Learning Model Deployment. MLOps life flow and work on a project that is scalable and can be turned into a product.<br>\
+                        <strong>Tools: </strong>Python · Docker · DVC (Data Version Control) · Github Actions · FastAPI<br>\
+                        <strong>CERTIFICATE: </strong><a href='https://platzi.com/p/agustin.ulibarrie/curso/2645-ml-ops/diploma/detalle/'>LINK</a></link><br>\
+                    </li>"
+        } else if (language === Languages.Spanish) {
+            return "<li>\
+                        <strong>Curso de Introducción al Despliegue de Modelos de Machine Learning:</strong><br>\
+                        Fundamentos del Despliegue de Modelos de Machine Learning. Flujo de vida del MLOps y trabajo en un proyecto que sea escalable y que puede convertirse en un producto.<br>\
+                        <strong>Herramientas: </strong>Python · Docker · DVC (Data Version Control) · Github Actions · FastAPI<br>\
+                        <strong>CERTICADO: </strong><a href='https://platzi.com/p/agustin.ulibarrie/curso/2645-ml-ops/diploma/detalle/'>LINK</a></link><br>\
+                    </li>"
+        }
+    },    
     fewWords: function() {
         if (language === Languages.English) {return 'In a few words...'}
         else if (language === Languages.Spanish) {return 'En resumen...'}
@@ -205,6 +235,8 @@ function setTexts() {
     elements.formalExperiencesTitle().innerText = texts.formalExperiencesTitle();
     elements.personalProjectsTitle().innerText = texts.personalProjectsTitle();
     elements.personalProjects().innerHTML = texts.personalProjects();
+    elements.coursesCertificationsTitle().innerText = texts.coursesCertificationsTitle();
+    elements.coursesCertifications().innerHTML = texts.coursesCertifications();
     elements.fewWords().innerText = texts.fewWords();
     elements.mainlyMasterTitle().innerText = texts.mainlyMasterTitle();
     elements.alsoWorkWith().innerText = texts.alsoWorkWith();
