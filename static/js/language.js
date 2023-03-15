@@ -55,8 +55,8 @@ let texts = {
         }
     },
     btnChangeLanguage: function() {
-        if (language === Languages.English) {return '<img src="static/assets/spanish.svg" style="height: 3rem;">'}
-        else if (language === Languages.Spanish) {return '<img src="static/assets/english.svg" style="height: 3rem;">'}
+        if (language === Languages.English) {return '<img src="static/assets/ESPANIOL_VERSION.png" style="height: 3rem;">'}
+        else if (language === Languages.Spanish) {return '<img src="static/assets/ENGLISH_VERSION.png" style="height: 3rem;">'}
     },
     gradeCertificateTitle: function() {
         if (language === Languages.English) {return 'Education'}
