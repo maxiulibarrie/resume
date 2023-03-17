@@ -117,7 +117,7 @@ let texts = {
                         <strong>Skills:</strong> Python · FastAPI · Jupyter · Oracle Database · Git<br>\
                     </li>\
                     <hr>\
-                    <li><strong>Java Developer/Test Automation at Globant (Marh 2019 - November 2020)</strong><br>\
+                    <li><strong>Java Developer/Test Automation at Globant (March 2019 - November 2020)</strong><br>\
                         I developed test automation scripts for a portal education web infrastructure (web apps, databases and services API REST).<br>\
                         <strong>Skills:</strong> Java · Selenium · Oracle Database · MongoDB · Jenkins · Git<br>\
                     </li>"
