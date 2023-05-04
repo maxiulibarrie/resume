@@ -105,7 +105,14 @@ let texts = {
     },
     formalExperiences: function() {
         if (language === Languages.English) {
-            return "<li><strong>Machine Learning Engineer at Globant (February 2022 - March 2023)</strong><br>\
+            return "<li><strong>Data Scientist at Globant (April 2023 - present)</strong><br>\
+                        Currently, I am working for several movie and TV streaming services. The work is based on a search \
+                        engine that applies NLP (Natural Language Processing) concepts to improve usability and accuracy \
+                        in the information provided to the end-user.<br>\
+                        <strong>Skills:</strong> Python · Java · AWS · Git · Docker · Hadoop · Tensorflow <br>\
+                    </li>\
+                    <hr>\
+                    <li><strong>Machine Learning Engineer at Globant (February 2022 - March 2023)</strong><br>\
                         I worked on Computer Vision related projects in a famous park where we detected guest out of bounds in rides and trigger alerts if \
                         an event occurred.<br>\
                         <strong>Skills:</strong> Amazon Web Services (AWS) · AWS SageMaker · PyTorch · Python · Git · Docker<br>\
@@ -122,21 +129,28 @@ let texts = {
                         <strong>Skills:</strong> Java · Selenium · Oracle Database · MongoDB · Jenkins · Git<br>\
                     </li>"
         } else if (language === Languages.Spanish) {
-            return "<li><strong>Machine Learning Engineer en Globant (Febrero 2022 - Marzo 2023)</strong><br>\
+            return "<li><strong>Data Scientist en Globant (Abril 2023 - present)</strong><br>\
+                        Actualmente estoy trabajando para varios servicios de streamings de películas, series, etc. \
+                        El mismo se basa en un motor de búsqueda aplicando conceptos de NLP (Natural Language Processing) \
+                        para mejorar la usabilidad y precisión en la información traída para el usuario final.<br>\
+                        <strong>Habilidades:</strong> Python · Java · AWS · Git · Docker · Hadoop · Tensorflow <br>\
+                    </li>\
+                    <hr>\
+                    <li><strong>Machine Learning Engineer en Globant (Febrero 2022 - Marzo 2023)</strong><br>\
                         Trabajé en proyectos de Computer Vision en un famoso parque de atracciones donde detectabamos personas fuera de los límites en paseos en \
                         botes y lanzanbamos alertas si eso ocurria.<br>\
-                        <strong>Skills:</strong> Amazon Web Services (AWS) · AWS SageMaker · PyTorch · Python · Git · Docker<br>\
+                        <strong>Habilidades:</strong> Amazon Web Services (AWS) · AWS SageMaker · PyTorch · Python · Git · Docker<br>\
                     </li>\
                     <hr>\
                     <li><strong>Data Scientist en Globant (Enero 2021 - Enero 2022)</strong><br>\
                         Trabajé en un proyecto donde desarrollamos una herramienta de forecasting donde permitía al cliente analizar \
                         diferentes escenarios en el mecardo automotriz y tomar mejores desiciones respecto al pricing.<br>\
-                        <strong>Skills:</strong> Python · FastAPI · Jupyter · Oracle Database · Git<br>\
+                        <strong>Habilidades:</strong> Python · FastAPI · Jupyter · Oracle Database · Git<br>\
                     </li>\
                     <hr>\
                     <li><strong>Java Developer/Test Automation en Globant (Marzo 2019 - Noviembre 2020)</strong><br>\
                         Desarrollé test automation scripts para un portal educativo (aplicaciones web, base de datos y servicios API REST)<br>\
-                        <strong>Skills:</strong> Java · Selenium · Oracle Database · MongoDB · Jenkins · Git<br>\
+                        <strong>Habilidades:</strong> Java · Selenium · Oracle Database · MongoDB · Jenkins · Git<br>\
                     </li>"
         }
     },
