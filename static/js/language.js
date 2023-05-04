@@ -129,7 +129,7 @@ let texts = {
                         <strong>Skills:</strong> Java · Selenium · Oracle Database · MongoDB · Jenkins · Git<br>\
                     </li>"
         } else if (language === Languages.Spanish) {
-            return "<li><strong>Data Scientist en Globant (Abril 2023 - present)</strong><br>\
+            return "<li><strong>Data Scientist en Globant (Abril 2023 - presente)</strong><br>\
                         Actualmente estoy trabajando para varios servicios de streamings de películas, series, etc. \
                         El mismo se basa en un motor de búsqueda aplicando conceptos de NLP (Natural Language Processing) \
                         para mejorar la usabilidad y precisión en la información traída para el usuario final.<br>\
