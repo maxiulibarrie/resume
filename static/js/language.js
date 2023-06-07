@@ -78,7 +78,7 @@ let texts = {
                     </li>\
                     <li>\
                         <strong>Mail: </strong>\
-                        agustin.ulibarrie@gmail.com<br>\
+                        maxiagst@gmail.com<br>\
                     </li>\
                     <li>\
                         <strong>LinkedIn: </strong>\
@@ -91,7 +91,7 @@ let texts = {
                     </li>\
                     <li>\
                         <strong>Mail: </strong>\
-                        agustin.ulibarrie@gmail.com<br>\
+                        maxiagst@gmail.com<br>\
                     </li>\
                     <li>\
                         <strong>LinkedIn: </strong>\
