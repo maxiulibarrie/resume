@@ -28,14 +28,9 @@ let elements = {
 let texts = {
     presentation: function() {
         if (language === Languages.English) {
-            return "Hello! I am an Information System Engineer specialized in Machine Learning with 2+ experience. \
-            Focused on delivering with the best practices and the cleaner code within my capabilities, which are constantly improving. \
-            Also, I like learning about new practices and technologies. Fluent speaking English and always predisposed to help and collaborate in a team work."
+            return "I'm an Information System Engineer specialized in Machine Learning and Deep Learning with 3+ years experience. Expert in Data Exploration and Data Analysis in order to give the best model possible, extract important information about the data and communicate it to the client. Also maintain MLOps processes. I’m always predisposed to help and collaborate in a team work."
         } else if (language === Languages.Spanish) {
-            return "Hola! Soy Ingeniero en Sistemas de Información especializado en Machine Learning con más de 2 años de experiencia. \
-            Estoy centrado en hacer el delivery con las mejores prácticas y el código más limpio dentro de mis capacidades, las cuales \
-            estoy constantemente mejorando. También me gusta aprender sobre nuevas prácticas y tecnologías. Hablo inglés de manera fluida \
-            y siempre estoy dispuesto a ayudar y colaborar en un equipo de trabajo."
+            return "Soy Ingeniero en Sistemas de Información especializado en Machine Learning y Deep Learning con más de 3 años de experiencia. Experto en Exploración y Análisis de Datos para dar el mejor modelo posible, extraer información importante sobre los datos y comunicarla al cliente. También mantengo los procesos MLOps. Siempre estoy predispuesto a ayudar y colaborar en el equipo."
         }
     },
     btnDownloadMyResume: function() {
@@ -106,60 +101,52 @@ let texts = {
     formalExperiences: function() {
         if (language === Languages.English) {
             return "<li><strong>Data Scientist at Globant (April 2023 - present)</strong><br>\
-                        Currently, I am working for several movie and TV streaming services. The work is based on a search \
-                        engine that applies NLP (Natural Language Processing) concepts to improve usability and accuracy \
-                        in the information provided to the end-user.<br>\
-                        <strong>Skills:</strong> Python · Java · AWS · Git · Docker · Hadoop · Tensorflow <br>\
+                        Develop, enhance and maintain a NLP model for several movie and content streaming services. Exploratory Data Analysis on content in order to develop a model that improve the experience on searching for users. Maintain the MLOps processes (training and serving) using an internal framework with AWS, Kubernetes and Spinnaker.<br>\
+                        <strong>Skills:</strong> Python · Java · AWS · Git · Docker · Pytorch · Tensorflow <br>\
                     </li>\
                     <hr>\
-                    <li><strong>Machine Learning Engineer at Globant (February 2022 - March 2023)</strong><br>\
-                        I worked on Computer Vision related projects in a famous park where we detected guest out of bounds in rides and trigger alerts if \
-                        an event occurred.<br>\
-                        <strong>Skills:</strong> Amazon Web Services (AWS) · AWS SageMaker · PyTorch · Python · Git · Docker<br>\
+                    <li><strong>Data Scientist at Globant (February 2022 - March 2023)</strong><br>\
+                        Maintain and enhance Computer Vision models related with a famous park that detects guests out of bounds in rides and trigger alerts if an event occurred. Exploratory Data Analysis over the images to improve models using segmentation and object detection algorithms.<br>\
+                        <strong>Skills:</strong> AWS · AWS SageMaker · PyTorch · Python · Git · Docker <br>\
                     </li>\
                     <hr>\
                     <li><strong>Data Scientist at Globant (January 2021 - January 2022)</strong><br>\
-                        I worked on a forecast analytics tool that allows the customer to analyze different scenarios in the market and make \
-                        decisions in the pricing for the Automotive Industry.<br>\
-                        <strong>Skills:</strong> Python · FastAPI · Jupyter · Oracle Database · Git<br>\
+                        Develop, enhance and maintain a forecast model that allows the user to analyze different scenarios in the market and make decisions in the pricing for the Automotive Industry. Exploratory Data Analysis from several data bases in order obtain data to make the analysis, develop the model and expose a service.<br>\
+                        <strong>Skills:</strong> Python · FastAPI · Jupyter · Oracle Database · Git <br>\
                     </li>\
                     <hr>\
-                    <li><strong>Java Developer/Test Automation at Globant (March 2019 - November 2020)</strong><br>\
+                    <li><strong>Test Automation Developer at Globant (March 2019 - November 2020)</strong><br>\
                         I developed test automation scripts for a portal education web infrastructure (web apps, databases and services API REST).<br>\
-                        <strong>Skills:</strong> Java · Selenium · Oracle Database · MongoDB · Jenkins · Git<br>\
+                        <strong>Skills:</strong> Java · Selenium · Oracle Database · MongoDB · Jenkins · Git <br>\
                     </li>"
         } else if (language === Languages.Spanish) {
             return "<li><strong>Data Scientist en Globant (Abril 2023 - presente)</strong><br>\
-                        Actualmente estoy trabajando para varios servicios de streamings de películas, series, etc. \
-                        El mismo se basa en un motor de búsqueda aplicando conceptos de NLP (Natural Language Processing) \
-                        para mejorar la usabilidad y precisión en la información traída para el usuario final.<br>\
-                        <strong>Habilidades:</strong> Python · Java · AWS · Git · Docker · Hadoop · Tensorflow <br>\
+                        Desarrollar, mejorar y mantener un modelo de NLP para varios servicios de transmisión de películas y series. Análisis exploratorio de datos sobre contenidos para desarrollar un modelo que mejore la experiencia de búsqueda de los usuarios. Mantener los procesos MLOps (training y serving del modelo) utilizando un framework interno con AWS, Kubernetes y Spinnaker.<br>\
+                        <strong>Tecnologías:</strong> Python · Java · AWS · Git · Docker · Pytorch · Tensorflow <br>\
                     </li>\
                     <hr>\
-                    <li><strong>Machine Learning Engineer en Globant (Febrero 2022 - Marzo 2023)</strong><br>\
-                        Trabajé en proyectos de Computer Vision en un famoso parque de atracciones donde detectabamos personas fuera de los límites en paseos en \
-                        botes y lanzanbamos alertas si eso ocurria.<br>\
-                        <strong>Habilidades:</strong> Amazon Web Services (AWS) · AWS SageMaker · PyTorch · Python · Git · Docker<br>\
+                    <li><strong>Data Scientist en Globant (Febrero 2022 - Marzo 2023)</strong><br>\
+                        Mantener y mejorar los modelos de Computer Vision relacionados con un parque de atracciones famoso que detecta visitantes fuera de los límites en las atracciones y activa alertas si ocurre un evento. Análisis exploratorio de datos sobre las imágenes para mejorar modelos mediante algoritmos de segmentación y detección de objetos.<br>\
+                        <strong>Tecnologías:</strong> AWS · AWS SageMaker · PyTorch · Python · Git · Docker <br>\
                     </li>\
                     <hr>\
                     <li><strong>Data Scientist en Globant (Enero 2021 - Enero 2022)</strong><br>\
-                        Trabajé en un proyecto donde desarrollamos una herramienta de forecasting donde permitía al cliente analizar \
-                        diferentes escenarios en el mecardo automotriz y tomar mejores desiciones respecto al pricing.<br>\
-                        <strong>Habilidades:</strong> Python · FastAPI · Jupyter · Oracle Database · Git<br>\
+                        Desarrollar, mejorar y mantener un modelo de forecasting que permita al usuario analizar diferentes escenarios en el mercado y tomar decisiones en la determinación de precios para la Industria Automotriz. Análisis Exploratorio de Datos de una gran cantidad de bases de datos con el fin de obtener datos para realizar el análisis, desarrollar el modelo y exponer un servicio.<br>\
+                        <strong>Tecnologías:</strong> Python · FastAPI · Jupyter · Oracle Database · Git <br>\
                     </li>\
                     <hr>\
                     <li><strong>Java Developer/Test Automation en Globant (Marzo 2019 - Noviembre 2020)</strong><br>\
-                        Desarrollé test automation scripts para un portal educativo (aplicaciones web, base de datos y servicios API REST)<br>\
-                        <strong>Habilidades:</strong> Java · Selenium · Oracle Database · MongoDB · Jenkins · Git<br>\
+                        Desarrollé scripts de automatización de pruebas para un portal de infraestructura web educativa (aplicaciones web, bases de datos y servicios API REST).<br>\
+                        <strong>Tecnologías:</strong> Java · Selenium · Oracle Database · MongoDB · Jenkins · Git<br>\
                     </li>"
         }
     },
     personalProjectsTitle: function() {
         if (language === Languages.English) {
-            return "Along with previously mentioned, I also worked parallelly at home for hobbie and self learning on the following personal projects:"
+            return "Personal projects for self learning:"
         }
         else if (language === Languages.Spanish) {
-            return "Junto con lo mencionado previamente, también trabajé en casa por hobbie y aprendizaje autodidacta con los siguientes proyectos personales:"
+            return "Projectos personales para aprendizaje:"
         }
     },
     personalProjects: function() {
@@ -180,15 +167,14 @@ let texts = {
         } else if (language === Languages.Spanish) {
             return "<li>\
                         <strong>Prevent Collision System</strong><br>\
-                        Proyecto de Computer Vision para detectar vehiculos y prevenir accidentes con personas que cruzan por el medio de la calle. \
-                        Usa Docker Compose para procesos CI/CD.<br>\
+                        Proyecto de Computer Vision para detectar automóviles y prevenir accidentes con personas que cruzan en medio de la calle. Utilice Docker Compose para procesos CI/CD.<br>\
                         <strong>Herramientas: </strong>Python · PyTorch · Docker · Docker Compose<br>\
                         <strong>REPO LINK: </strong><a href='https://github.com/MaxiUlibarrie/cars-cv'>https://github.com/MaxiUlibarrie/cars-cv</a></link><br>\
                     </li>\
                     <hr>\
                     <li>\
                         <strong>Reviews Classifier Spanish</strong><br>\
-                        Usa BETO Transformers y FastAPI para clasificar opiniones de películas en español. Usa Docker Compose para procesos CI/CD.<br>\
+                        Utilice BETO Transformers y FastAPI para clasificar reseñas de películas en español. Utilice Docker Compose para procesos CI/CD.<br>\
                         <strong>Herramientas: </strong>Python · PyTorch · Docker · Docker Compose · FastAPI<br>\
                         <strong>REPO LINK: </strong><a href='https://github.com/MaxiUlibarrie/reviews-clf-nlp'>https://github.com/MaxiUlibarrie/reviews-clf-nlp</a></link><br>\
                     </li>"
