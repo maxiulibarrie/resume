@@ -35,14 +35,14 @@ let texts = {
     },
     btnDownloadMyResume: function() {
         if (language === Languages.English) {
-            return '<a href="static/download/Maximiliano_Ulibarrie_CV_English.pdf">\
+            return '<a href="cvs/Maximiliano_Ulibarrie_CV_English.pdf">\
                         <button class="btn btn-info ml-auto mr-md-5">\
                             <img src="static/assets/download.png" style="height: 3rem;"></img>\
                         </button>\
                     </a>'
         }
         else if (language === Languages.Spanish) {
-            return '<a href="static/download/Maximiliano_Ulibarrie_CV_Espaniol.pdf">\
+            return '<a href="cvs/Maximiliano_Ulibarrie_CV_Espaniol.pdf">\
                         <button class="btn btn-info ml-auto mr-md-5">\
                             <img src="static/assets/descargar.png" style="height: 3rem;"></img>\
                         </button>\
@@ -100,7 +100,14 @@ let texts = {
     },
     formalExperiences: function() {
         if (language === Languages.English) {
-            return "<li><strong>Data Scientist at Globant (April 2023 - present)</strong><br>\
+            return "<li><strong>Data Scientist at Fligoo (May 2024 - present)</strong><br>\
+                        Develop, enhance and maintain of product recommendation systems. \
+                        Data preparation and processing, as well as maintenance of pipelines to process raw \
+                        data into user recommendations. Using technologies such as Azure and Databricks.<br>\
+                        <strong>Skills:</strong> Python · Microsoft Azure · Databricks · AWS · Git · Docker <br>\
+                    </li>\
+                    <hr>\
+                    <li><strong>Data Scientist at Globant (April 2023 - May 2024)</strong><br>\
                         Develop, enhance and maintain a NLP model for several movie and content streaming services. Exploratory Data Analysis on content in order to develop a model that improve the experience on searching for users. Maintain the MLOps processes (training and serving) using an internal framework with AWS, Kubernetes and Spinnaker.<br>\
                         <strong>Skills:</strong> Python · Java · AWS · Git · Docker · Pytorch · Tensorflow <br>\
                     </li>\
@@ -120,7 +127,15 @@ let texts = {
                         <strong>Skills:</strong> Java · Selenium · Oracle Database · MongoDB · Jenkins · Git <br>\
                     </li>"
         } else if (language === Languages.Spanish) {
-            return "<li><strong>Data Scientist en Globant (Abril 2023 - presente)</strong><br>\
+            return "<li><strong>Data Scientist en Globant (Mayo 2024 - presente)</strong><br>\
+                        Desarrollar, mejorar y mantener sistemas de recomendación de productos. \
+                        Preparación y procesamiento de datos, así como el mantenimiento de los \
+                        pipelines para procesar datos en bruto y convertirlos en recomendaciones \
+                        para los usuarios. Usando tecnologías como Azure y Databricks.<br>\
+                        <strong>Tecnologías:</strong> Python · Microsoft Azure · Databricks · AWS · Git · Docker <br>\
+                    </li>\
+                    <hr>\
+                    <li><strong>Data Scientist en Globant (Abril 2023 - Mayo 2024)</strong><br>\
                         Desarrollar, mejorar y mantener un modelo de NLP para varios servicios de transmisión de películas y series. Análisis exploratorio de datos sobre contenidos para desarrollar un modelo que mejore la experiencia de búsqueda de los usuarios. Mantener los procesos MLOps (training y serving del modelo) utilizando un framework interno con AWS, Kubernetes y Spinnaker.<br>\
                         <strong>Tecnologías:</strong> Python · Java · AWS · Git · Docker · Pytorch · Tensorflow <br>\
                     </li>\
