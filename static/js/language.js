@@ -127,7 +127,7 @@ let texts = {
                         <strong>Skills:</strong> Java · Selenium · Oracle Database · MongoDB · Jenkins · Git <br>\
                     </li>"
         } else if (language === Languages.Spanish) {
-            return "<li><strong>Data Scientist en Globant (Mayo 2024 - presente)</strong><br>\
+            return "<li><strong>Data Scientist en Fligoo (Mayo 2024 - presente)</strong><br>\
                         Desarrollar, mejorar y mantener sistemas de recomendación de productos. \
                         Preparación y procesamiento de datos, así como el mantenimiento de los \
                         pipelines para procesar datos en bruto y convertirlos en recomendaciones \
