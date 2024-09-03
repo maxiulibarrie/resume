@@ -130,7 +130,7 @@ let texts = {
             return "<li><strong>Data Scientist en Fligoo (Mayo 2024 - presente)</strong><br>\
                         Desarrollar, mejorar y mantener sistemas de recomendación de productos. \
                         Preparación y procesamiento de datos, así como el mantenimiento de los \
-                        pipelines para procesar datos en bruto y convertirlos en recomendaciones \
+                        pipelines para procesar datos crudos y convertirlos en recomendaciones \
                         para los usuarios. Usando tecnologías como Azure y Databricks.<br>\
                         <strong>Tecnologías:</strong> Python · Microsoft Azure · Databricks · AWS · Git · Docker <br>\
                     </li>\
